@@ -1,7 +1,7 @@
 from django.contrib import admin
 
-from .models import *
+from .models import ItemStore, Category, Menu
 
-admin.site.register(Question)
-
-admin.site.register(Choice)
+admin.site.register(ItemStore)
+admin.site.register(Category)
+admin.site.register(Menu)
